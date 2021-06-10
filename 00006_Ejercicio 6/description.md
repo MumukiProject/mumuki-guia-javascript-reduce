@@ -1,13 +1,11 @@
-* Tenemos un array en una variable `datos` con números al azar, que pueden ser tanto positivos como negativos
-* Queremos eliminar todos los números negativos
-* Con los números restantes, obtener el doble de cada uno
-* Finalmente, obtener la suma de todos los números que obtuvimos
-* Podes hacerlo con uno o varios de los metodos que ya vimos: forEach, map, filter, some, every y reduce. 
-
+Tenemos un array en una variable `datos` con números aleatorios, que pueden ser tanto positivos como negativos. Queremos eliminar todos los números negativos y con los números restantes, obtener el doble de cada uno.
+Finalmente, obtener la suma de todos los números que obtuvimos.
+ 
 ```js
-const datos = [2, -4, 6, 0, 5, -1];
+let datos = [2, -4, 6, 0, 5, -1];
 
-// codear acá la solución del ejercicio
-const total = ;
-
+ム sumarRestantes(datos);
+26
 ```
+
+> Definí la función `sumarRestantes` y las funciones auxiliares necesarias para lograr el comportamiento que acabamos de describir.
