@@ -15,6 +15,7 @@ describe("", function() {
       assert.equal(resultado, 59);
   })
 });
+
 describe("", function() {
   it("Si hacemos sumaDeEdades(personas) en donde personas es un array que contiene a Wuisti de 29 años, May de 28, Oli de 2 años y Thom Yorke de 52 años retorna 111", function() {
       let personas = [
