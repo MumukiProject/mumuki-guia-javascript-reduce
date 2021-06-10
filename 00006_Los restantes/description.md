@@ -4,8 +4,8 @@ Finalmente, obtener la suma de todos los números que obtuvimos.
 ```js
 let datos = [2, -4, 6, 0, 5, -1];
 
-ム sumarRestantes(datos);
+ム sumaDeLosDoblesPositivos(datos);
 26
 ```
 
-> Definí la función `sumarRestantes` y las funciones auxiliares necesarias para lograr el comportamiento que acabamos de describir.
+> Definí la función `sumaDeLosDoblesPositivos` y las funciones auxiliares necesarias para lograr el comportamiento que acabamos de describir.
