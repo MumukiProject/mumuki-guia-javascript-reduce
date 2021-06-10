@@ -4,3 +4,10 @@ describe("", function() {
       assert.equal(resultado, 155);
   })
 });
+
+describe("", function() {
+  it("Si hacemos sumatoria([4, 8, 5, 24, 18]) retorna 59", function() {
+      let resultado = sumatoria([4, 8, 5, 24, 18]);
+      assert.equal(resultado, 59);
+  })
+});
