@@ -6,7 +6,7 @@ describe("", function() {
 });
 
 describe("", function() {
-  it("Si hacemos sumaDeLosDoblesPositivos([5, 4, 8, 1, -3, -1]) retorna 26", function() {
+  it("Si hacemos sumaDeLosDoblesPositivos([5, 4, 8, 1, -3, -1]) retorna 36", function() {
       let resultado = sumaDeLosDoblesPositivos([5, 4, 8, 1, -3, -1]);
       assert.equal(resultado, 36);
   })
