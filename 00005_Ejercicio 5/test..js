@@ -35,4 +35,3 @@ describe("", function() {
       assert.equal(resultado, 111);
   })
 });
-Wuisti
