@@ -36,3 +36,21 @@ describe("", function() {
       assert.equal(resultado, 111);
   })
 });
+
+describe("", function() {
+  it("Si hacemos sumaDeEdades(personas) en donde personas es un array que contiene a Aang de 112 años, Katara de 14 y Suki de 15 años retorna 141", function() {
+      let personas = [
+        {nombre: "Aang", 
+        edad: 112
+        }, 
+        {nombre: "Katara", 
+        edad: 14
+        },
+        {nombre: "Suki", 
+        edad: 15
+        },
+      ];
+      let resultado = sumaDeEdades(personas);
+      assert.equal(resultado, 141);
+  })
+});
