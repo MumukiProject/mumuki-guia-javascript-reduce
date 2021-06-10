@@ -11,3 +11,10 @@ describe("", function() {
       assert.equal(resultado, 36);
   })
 });
+
+describe("", function() {
+  it("Si hacemos sumaDeLosDoblesPositivos([-5, -4, -8, -1, -3, 0]) retorna 0", function() {
+      let resultado = sumaDeLosDoblesPositivos([-5, -4, -8, -1, -3, 0]);
+      assert.equal(resultado, 0);
+  })
+});
