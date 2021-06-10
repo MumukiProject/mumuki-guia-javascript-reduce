@@ -11,3 +11,10 @@ describe("", function() {
       assert.equal(resultado, 59);
   })
 });
+
+describe("", function() {
+  it("Si hacemos sumatoria([19, 27, 12, 23, 10]) retorna 91", function() {
+      let resultado = sumatoria([19, 27, 12, 23, 10]);
+      assert.equal(resultado, 91);
+  })
+});
