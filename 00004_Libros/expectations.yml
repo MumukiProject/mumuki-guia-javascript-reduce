@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresFunction:enlistar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: enlistar
+  inspection: Uses:array.reduce
