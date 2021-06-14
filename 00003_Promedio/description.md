@@ -7,4 +7,4 @@ let notasDeTPs = [4, 7, 8, 5, 10];
 6.8
 ```
 
-> Definí la función `promedio`
+> Definí la función `promedio`.
