@@ -19,4 +19,4 @@ let librosDeJS = [
  <li>JavaScript for Kids: A Playful Introduction to Programming</li><li>Composing Software</li><li>Eloquent JavaScript: A Modern Introduction to Programming</li><li>JavaScript: The Good Parts</li><li>Programming JavaScript Applications: Robust Web Architecture with Node, HTML5, and Moderns JS Libraries</li><li>Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript</li><li>JavaScript: The Definitive Guide</li><li>You Don’t Know JS</li><li>JavaScript Allongé: The Six Edition</li>
 ```
 
-> Definí la función `enlistar` que reciba un array de libros por parámetro y retorne los libros enlistados, como acabamos de describir.
+> Definí la función `enlistar` que reciba un array de libros como argumento y retorne los libros enlistados, como acabamos de describir.
