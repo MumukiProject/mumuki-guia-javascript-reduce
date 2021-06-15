@@ -1,1 +1,1 @@
-TODO
+El método **reduce** nos permite recorrer un array y obtener un sólo dato como resultado final, veamos como funciona. :face_with_monocle:
