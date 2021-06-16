@@ -1,5 +1,5 @@
 Necesitamos una función que nos permita eliminar todos los números negativos y con los números restantes, obtener el doble de cada uno.
-Finalmente, obtener la suma de todos los números que obtuvimos.
+Finalmente, queremos obtener la suma de todos los números que obtuvimos.
  
 ```js
 ム sumaDeLosDoblesPositivos([2, -4, 6, 0, 5, -1]);
