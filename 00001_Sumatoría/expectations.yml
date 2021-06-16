@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresFunction:sumatoria
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumatoria
+  inspection: Uses:reduce
