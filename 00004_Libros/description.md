@@ -1,5 +1,4 @@
-Tenemos un array en una variable `libros` con libros para leer.
-Usar la función `reduce` para crear un string con todos los titulos de los libros encerrados en una etiqueta `<li></li>`.
+Necesitamos una función que utilizando reduce, nos ayude a enlistar los libros que tome por parámetro y retorne un string con todos los titulos de los libros encerrados en una etiqueta `<li></li>`. Por ejemplo:
 
 
 ```js
