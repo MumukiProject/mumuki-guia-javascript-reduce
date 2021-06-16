@@ -1,11 +1,11 @@
-it(escapeHtml("Si hacemos enlistar('JavaScript for Kids: A Playful Introduction to Programming','Composing Software','Eloquent JavaScript: A Modern Introduction to Programming') debería retornar ['<li>JavaScript for Kids: A Playful Introduction to Programming</li>','<li>Composing Software</li>','<li>Eloquent JavaScript: A Modern Introduction to Programming</li>']"), function() {
+it(escapeHtml("Si hacemos enlistar('JavaScript for Kids: A Playful Introduction to Programming','Composing Software','Eloquent JavaScript: A Modern Introduction to Programming') retorna ['<li>JavaScript for Kids: A Playful Introduction to Programming</li>','<li>Composing Software</li>','<li>Eloquent JavaScript: A Modern Introduction to Programming</li>']"), function() {
   let resultado = enlistar([
 'JavaScript for Kids: A Playful Introduction to Programming','Composing Software','Eloquent JavaScript: A Modern Introduction to Programming'
 ])
   assert.deepEqual(resultado, '<li>JavaScript for Kids: A Playful Introduction to Programming</li>','<li>Composing Software</li>','<li>Eloquent JavaScript: A Modern Introduction to Programming</li>'
 })
 
-it(escapeHtml("Si hacemos enlistar(['La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate']) debería retornar ['<li>La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate']"), function(){
+it(escapeHtml("Si hacemos enlistar(['La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate']) retorna '<li>La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate'"), function(){
   let resultado = enlistar(['La insoportable levedad del ser','Socorro','Un lobo estepario', 'Como agua para chocolate']);
   assert.deepEqual(resultado,'<li>La insoportable levedad del ser</li><li>Socorro</li><li>Un lobo estepario</li><li>Como agua para chocolate</li>'
 })
