@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresFunction:sumaDeLosDoblesPositivos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumaDeLosDoblesPositivos
+  inspection: Uses:reduce
