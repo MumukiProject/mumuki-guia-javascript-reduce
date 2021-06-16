@@ -2,9 +2,7 @@ Tenemos un array en una variable `datos` con números aleatorios, que pueden ser
 Finalmente, obtener la suma de todos los números que obtuvimos.
  
 ```js
-let datos = [2, -4, 6, 0, 5, -1];
-
-ム sumaDeLosDoblesPositivos(datos);
+ム sumaDeLosDoblesPositivos([2, -4, 6, 0, 5, -1]);
 26
 ```
 
