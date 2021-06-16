@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresFunction:productoria
+  inspection: DeclaresFunction:promedio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: productoria
+  binding: promedio
   inspection: Uses:reduce
