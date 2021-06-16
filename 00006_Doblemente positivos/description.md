@@ -1,4 +1,4 @@
-Tenemos un array en una variable `datos` con números aleatorios, que pueden ser tanto positivos como negativos. Queremos eliminar todos los números negativos y con los números restantes, obtener el doble de cada uno.
+Necesitamos una función que nos permita eliminar todos los números negativos y con los números restantes, obtener el doble de cada uno.
 Finalmente, obtener la suma de todos los números que obtuvimos.
  
 ```js
