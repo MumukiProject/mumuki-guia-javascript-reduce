@@ -1,16 +1,18 @@
-Tenemos un array de objetos llamado `personas` con personas y edades .
-Utilizando `reduce`, queremos calcular la suma de todas las edades que están en el array.
+Queremos calcular la suma de todas las edades que están en una lista de personas. Por ejemplo:
 
 ```js
 let personas = [
-    {nombre: "Grace", 
-    edad: 6
+    {
+      nombre: "Grace", 
+      edad: 6
     }, 
-    {nombre: "Ada", 
-    edad: 19
+    {
+      nombre: "Ada", 
+      edad: 19
     },
-    {nombre: "Hedy", 
-    edad: 34
+    {
+      nombre: "Hedy", 
+      edad: 34
     }
   ];
 
@@ -19,4 +21,4 @@ let personas = [
 59
 ```
 
-> Definí la función `sumaDeEdades`.
+> Definí la función `sumaDeEdades` utilizando `reduce`.
