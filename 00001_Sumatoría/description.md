@@ -2,9 +2,7 @@ Utilizando `reduce`, queremos calcular la suma de todos los números de un array
 Por ejemplo: Si tenemos `[1, 2, 3]`, la suma de todos los números es **6**
 
 ```js
-let numeros = [6, 1, 34, 94, 3, 17];
-
-ム sumatoria(numeros)
+ム sumatoria([6, 1, 34, 94, 3, 17])
 155
 ```
 
