@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresFunction:sumaDeEdades
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumaDeEdades
+  inspection: Uses:reduce
