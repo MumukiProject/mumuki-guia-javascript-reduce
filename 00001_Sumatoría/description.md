@@ -1,5 +1,4 @@
-Tenemos un array llamado `numeros` con números enteros al azar.
-Utilizando `reduce`, queremos calcular la suma de todos los números que están en el array.
+Utilizando `reduce`, queremos calcular la suma de todos los números de un array.
 Por ejemplo: Si tenemos `[1, 2, 3]`, la suma de todos los números es **6**
 
 ```js
